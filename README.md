@@ -1,8 +1,26 @@
-# React + Vite
+# 🎵 React Drum Machine:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based Drum Machine built using Tailwind CSS for styling. It allows users to play drum sounds either by clicking on buttons or pressing corresponding keyboard keys.
 
-Currently, two official plugins are available:
+## ✨ Features:-
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Drum Sounds - Click a button or press a key to play a sound.
+- Keyboard Support - Press Q, W, E, A, S, D, Z, X, C to trigger corresponding drum sounds.
+- Visual Feedback - Displays the last played sound name.
+- Styled with Tailwind CSS - Modern UI with responsive design.
+
+## 📜 How It Works:-
+
+- The Drum Pads are generated dynamically from an array (Array.js).
+- Clicking a drum pad button triggers the corresponding sound.
+- Pressing a keyboard key (Q, W, E, A, S, D, Z, X, C) also triggers the sound.
+- The display updates to show the current playing sound name.
+- The app listens for keyboard keypress events (useEffect hook in App.js).
+
+## 🛠 Built With:-
+
+- React - Component-based UI.
+
+- Tailwind CSS - Modern styling.
+
+- Vite - Fast build tool for React apps.
